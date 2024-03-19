@@ -147,12 +147,6 @@ from sklearn.metrics import f1_score
 accuracy = accuracy_score(y_test, test_predictions)
 print('Accuracy: %f' % accuracy)
 
-
-
-test_predictions
-
-y_test
-
 # precision tp / (tp + fp)
 precision = precision_score(y_test,test_predictions, pos_label='positive', average='weighted')
 print('Precision: %f' % precision)
