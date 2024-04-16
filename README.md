@@ -101,7 +101,7 @@ Train and Evaluate
         
         python3 rf_MainPOS.py
         
-        python3 rnn_MainPOS.py
+        python3 lstm_MainPOS.py
         
         python3 svm_MainPOS.py
         
@@ -117,7 +117,7 @@ Train and Evaluate
         
         python3 rf_MainPortland.py
     
-        python3 rnn_MainPortland.py
+        python3 lstm_MainPortland.py
     
         python3 svm_MainPortland.py
     
