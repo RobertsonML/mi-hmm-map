@@ -159,6 +159,7 @@ startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.1, 0.1, 0.8], [0.1,
 
 emissionprob = np.array([[0.2, 0.2, 0.6], [0.2, 0.6, 0.2], [0.6, 0.2, 0.2]])
 
+
 Train and Evaluate
         python3 hmm_MainPOS.py
 
