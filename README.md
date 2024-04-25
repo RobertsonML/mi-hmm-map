@@ -14,17 +14,16 @@ Environments
 
 Requirements
  
-    pandas==1.4.3
- 
-    matplotlib==2.2.3
-
-    numpy==1.16.6
-
-    scipy==1.4.1
-
-    keras==2.2.5
- 
-    scikit-learn==1.1.1
+    hmmlearn==0.3.2 \
+    keras==3.3.2 \
+    matplotlib==3.8.4 \
+    numpy==1.26.4 \
+    openpyxl==3.1.2 \
+    pandas==2.2.2 \
+    pipenv==2023.12.1 \
+    pytest-warnings==0.3.1 \
+    sklearn==0.0 \
+    tensorflow==2.16.1
 
 Google Colaboratory, is a powerful cloud-based platform that allows you to run Python code
 without the need for any local installations. It’s an invaluable tool for data scientists,
@@ -93,6 +92,52 @@ Other  Software To Possibly Consider For Offline Use
         you will be given the option to install VScode. 
         ix.	After a successful installation you will see the “Thanks for installing Anaconda” dialog box.
         x.	You should now be able to find the Anaconda Navigator and Anaconda Prompt applications on your computer
+
+Initialization For a given police district, the following Initialization should be considered for the execution of the hmm codes:
+
+Arima: startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
+
+emissionprob = np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
+
+Barataria: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.4, 0.4, 0.2], [0.4, 0.4, 0.2], [0.4, 0.4, 0.2]])
+
+emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
+
+Besson Street: startprob = np.array([0, 0, 1]) transmat= np.array([[0, 0.1, 0.9], [0.1, 0, 0.9], [0.9, 0.1, 0]])
+
+emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
+
+Cunupia: startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.7, 0.2, 0.1], [0.2, 0.7, 0.1], [0.1, 0.2, 0.7]])
+
+emissionprob = np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
+
+Freeport: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.4, 0.4, 0.2], [0.4, 0.4, 0.2], [0.2, 0.4, 0.4]])
+
+emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
+
+Manzanilla: tartprob = np.array([1, 0, 0]) transmat= np.array([[0.9, 0.1, 0], [0.1, 0.9, 0], [0, 0.1, 0.9]])
+
+emissionprob = np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
+
+Morvant: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.6, 0.2, 0.2], [0.6, 0.2, 0.2], [0.6, 0.2, 0.2]])
+
+emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
+
+San Fernando: startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
+
+emissionprob = np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
+
+Scarborough: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.8, 0.1, 0.1], [0.8, 0.1, 0.1], [0.1, 0.1, 0.8]])
+
+emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
+
+Siparia: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.8, 0.1, 0.1], [0.8, 0.1, 0.1], [0.1, 0.1, 0.8]])
+
+emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
+
+Portland Oregan USA startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.1, 0.1, 0.8], [0.1, 0.8, 0.1], [0.8, 0.1, 0.1]])
+
+emissionprob = np.array([[0.2, 0.2, 0.6], [0.2, 0.6, 0.2], [0.6, 0.2, 0.2]])
 
 Train and Evaluate
         python3 hmm_MainPOS.py
