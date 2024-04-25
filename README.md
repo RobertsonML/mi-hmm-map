@@ -164,7 +164,7 @@ emissionprob = np.array([[0.2, 0.2, 0.6], [0.2, 0.6, 0.2], [0.6, 0.2, 0.2]])
 Train and Evaluate
         
 
-	python3 hmm_MainPOS.py
+	    python3 hmm_MainPOS.py
 
         python3 mlp_MainPOS.py
         
