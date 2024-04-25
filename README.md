@@ -94,7 +94,6 @@ Other  Software To Possibly Consider For Offline Use
 Initialization For a given police district, the following Initialization should be considered for the execution of the hmm codes:
 
 Arima:
-
 startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
 
 emissionprob = np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
