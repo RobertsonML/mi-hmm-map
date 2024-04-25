@@ -95,47 +95,58 @@ Other  Software To Possibly Consider For Offline Use
 
 Initialization For a given police district, the following Initialization should be considered for the execution of the hmm codes:
 
-Arima: startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
+Arima: 
+startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
 
 emissionprob = np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
 
-Barataria: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.4, 0.4, 0.2], [0.4, 0.4, 0.2], [0.4, 0.4, 0.2]])
+Barataria: 
+startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.4, 0.4, 0.2], [0.4, 0.4, 0.2], [0.4, 0.4, 0.2]])
 
 emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
 
-Besson Street: startprob = np.array([0, 0, 1]) transmat= np.array([[0, 0.1, 0.9], [0.1, 0, 0.9], [0.9, 0.1, 0]])
+Besson Street: 
+startprob = np.array([0, 0, 1]) transmat= np.array([[0, 0.1, 0.9], [0.1, 0, 0.9], [0.9, 0.1, 0]])
 
 emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
 
-Cunupia: startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.7, 0.2, 0.1], [0.2, 0.7, 0.1], [0.1, 0.2, 0.7]])
+Cunupia: 
+startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.7, 0.2, 0.1], [0.2, 0.7, 0.1], [0.1, 0.2, 0.7]])
 
 emissionprob = np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
 
-Freeport: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.4, 0.4, 0.2], [0.4, 0.4, 0.2], [0.2, 0.4, 0.4]])
+Freeport: 
+startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.4, 0.4, 0.2], [0.4, 0.4, 0.2], [0.2, 0.4, 0.4]])
 
 emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
 
-Manzanilla: tartprob = np.array([1, 0, 0]) transmat= np.array([[0.9, 0.1, 0], [0.1, 0.9, 0], [0, 0.1, 0.9]])
+Manzanilla: 
+startprob = np.array([1, 0, 0]) transmat= np.array([[0.9, 0.1, 0], [0.1, 0.9, 0], [0, 0.1, 0.9]])
 
 emissionprob = np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
 
-Morvant: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.6, 0.2, 0.2], [0.6, 0.2, 0.2], [0.6, 0.2, 0.2]])
+Morvant: 
+startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.6, 0.2, 0.2], [0.6, 0.2, 0.2], [0.6, 0.2, 0.2]])
 
 emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
 
-San Fernando: startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
+San Fernando: 
+startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
 
 emissionprob = np.array([[0.5, 0.3, 0.2], [0.3, 0.5, 0.2], [0.2, 0.3, 0.5]])
 
-Scarborough: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.8, 0.1, 0.1], [0.8, 0.1, 0.1], [0.1, 0.1, 0.8]])
+Scarborough: 
+startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.8, 0.1, 0.1], [0.8, 0.1, 0.1], [0.1, 0.1, 0.8]])
 
 emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
 
-Siparia: startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.8, 0.1, 0.1], [0.8, 0.1, 0.1], [0.1, 0.1, 0.8]])
+Siparia: 
+startprob = np.array([0.2, 0.3, 0.5]) transmat= np.array([[0.8, 0.1, 0.1], [0.8, 0.1, 0.1], [0.1, 0.1, 0.8]])
 
 emissionprob = np.array([[0.2, 0.3, 0.5], [0.3, 0.5, 0.2], [0.5, 0.3, 0.2]])
 
-Portland Oregan USA startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.1, 0.1, 0.8], [0.1, 0.8, 0.1], [0.8, 0.1, 0.1]])
+Portland Oregan USA:
+startprob = np.array([0.5, 0.3, 0.2]) transmat= np.array([[0.1, 0.1, 0.8], [0.1, 0.8, 0.1], [0.8, 0.1, 0.1]])
 
 emissionprob = np.array([[0.2, 0.2, 0.6], [0.2, 0.6, 0.2], [0.6, 0.2, 0.2]])
 
