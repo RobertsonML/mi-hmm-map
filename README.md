@@ -7,9 +7,7 @@ Robertson, Devon L., and Wayne S. Goodridge. "Predicting density of serious crim
 Environments
    
     Python: 3.6.3
-   
     CPU: i7-1065G7
-   
     RAM: 16GB
 
 Requirements
